@@ -19,5 +19,6 @@
 *.hl3
 config.cfg
 maps/soundcache/*
+DownloadLists/*
 *.cache
 *.pdb
