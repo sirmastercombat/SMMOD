@@ -11,3 +11,13 @@
 *.lai
 *.la
 *.a
+
+# Source Engine Files
+*.sav
+*.hl1
+*.hl2
+*.hl3
+config.cfg
+maps/soundcache/*
+*.cache
+*.pdb
