@@ -1,0 +1,21 @@
+"MapAdd"
+{
+	"Init"
+	{
+		"npc_combine_s"
+		{
+			"x" "-27.571594"
+			"y" "-123.720215"
+			"z"	"-415.968750;"
+			"roll"	"0"  
+			"yaw"	"0"
+			"pitch"	"0"
+			"KeyValues"
+			{
+				"targetname" "Jackass" //You can also use "name", but it's best to stick with targetname
+				"model" "models/police.mdl" //It's not really a keyvalue, but I put that there because... I just felt like it, I'll move it later.
+				"additionalequipment"	"weapon_smg1"
+			}
+		}
+	}
+}
