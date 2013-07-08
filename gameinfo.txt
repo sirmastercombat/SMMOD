@@ -10,6 +10,10 @@
 	{
 		SteamAppId				243730		// This sets the app ID in Steam
 
+		AdditionalContentId			420
+		AdditionalContentId			220
+		AdditionalContentId			380
+		AdditionalContentId			240
 		//
 		// The code that loads this file automatically does a few things here:
 		//
@@ -36,15 +40,17 @@
 			// folder.
 			//
 			// Note that this folder is scanned only when the game is booted.
-			game+mod			ep2/custom/*
-			game+mod			episodic/custom/*
-			game+mod			hl2/custom/*
+			//game+mod			ep2/custom/*
+			//game+mod			episodic/custom/*
+			//game+mod			hl2/custom/*
 
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
 			// that's used when writing to the "mod" path.
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
+			game				|gameinfo_path|smmod_pak.vpk //Yes... We have our own VPK...
+			
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
@@ -53,6 +59,8 @@
 			game_lv				hl2/hl2_lv.vpk
 			game+mod			ep2/ep2_english.vpk
 			game+mod			ep2/ep2_pak.vpk
+			game+mod			cstrike/cstrike_english.vpk
+			game+mod			cstrike/cstrike_pak.vpk
 			game				|all_source_engine_paths|episodic/ep1_english.vpk
 			game				|all_source_engine_paths|episodic/ep1_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
@@ -74,6 +82,7 @@
 			game				|all_source_engine_paths|episodic
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
+			game+download			|gameinfo_path|download
 		}
 	}
 }
