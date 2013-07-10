@@ -1,4 +1,4 @@
-"blank"			"=========================="
+"blank"  		"=========================="
 "blank"			"#Valve_Movement_Title"
 "blank"			"=========================="
 "+forward"				"#Valve_Move_Forward"
@@ -29,6 +29,10 @@
 "invprev"				"#Valve_Previous_Weapon"
 "lastinv"				"#Valve_Last_Weapon_Used"
 "blank"			"=========================="
+"blank"			"#SMMOD_Bind_Heading"
+"blank"			"=========================="
+"+kick"			"#SMMOD_Bind_Kick"
+"blank"			"=========================="
 "blank"			"#Valve_Miscellaneous_Title"
 "blank"			"=========================="
 "incrementvar closecaption 0 1 1"	"#Valve_CC_Toggle"
@@ -50,4 +54,3 @@
 "+lookdown"				"#Valve_Look_Down"
 "+strafe"				"#Valve_Strafe_Modifier"
 "+klook"				"#Valve_Keyboard_Look_Modifier"
-

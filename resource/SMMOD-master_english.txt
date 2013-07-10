@@ -1,0 +1,92 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+//Chapter titles
+//First part of the string should match the mod directory name
+"SMMOD-master_Chapter0_Title"  "OUR STORY SO FAR..."
+"SMMOD-master_Chapter1_Title"	"TO THE WHITE FOREST"
+"SMMOD-master_Chapter2_Title"	"THIS VORTAL COIL"
+"SMMOD-master_Chapter3_Title"	"FREEMAN PONTIFEX"
+"SMMOD-master_Chapter4_Title"	"RIDING SHOTGUN"
+"SMMOD-master_Chapter5_Title"	"UNDER THE RADAR"
+"SMMOD-master_Chapter6_Title"	"OUR MUTUAL FIEND"
+"SMMOD-master_Chapter7_Title"	"T-MINUS ONE"
+"SMMOD-master_Chapter8_Title"	""
+
+//Loss messages
+"HL2_GameOver_Object"			"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: FAILURE TO PRESERVE MISSION-CRITICAL RESOURCES"
+"HL2_GameOver_Ally"			"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: FAILURE TO PRESERVE MISSION-CRITICAL PERSONNEL"
+"HL2_GameOver_Timer"			"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: FAILURE TO PREVENT TIME-CRITICAL SEQUENCE"
+"HL2_GameOver_Stuck"			"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: DEMONSTRATION OF EXCEEDINGLY POOR JUDGMENT"
+"Episodic_GameOver_AlyxDead"		"THE ALYX VANCE HAS DIED\nWITHOUT HER WE CANNOT PERSEVERE"
+"EP2_GameOver_AlyxLeft"			"THE FREEMAN MUST PROCEED WITH THE ALYX VANCE,\nELSE OUR STRUGGLE IS DOOMED TO FAILURE\nTHOSE WHO DO NOT LEARN FROM THEIR MISTAKES\nARE DOOMED TO AN ENDLESS VORTAL LOOP"
+"EP2_GameOver_RocketDestroyed"		"THE ROCKET HAS BEEN DESTROYED\nMAGNUSSON'S MISGIVINGS ABOUT THE FREEMAN\n ARE COMPLETELY JUSTIFIED.\nTHE GAME NOW ENDS"
+
+//Weapons
+"HL2_357Handgun"	".357 MAGNUM"
+"HL2_Pulse_Rifle"	"OVERWATCH STANDARD ISSUE\n(PULSE-RIFLE)"
+"HL2_Bugbait"		"PHEROPOD\n(BUGBAIT)"
+"HL2_Crossbow"		"CROSSBOW"
+"HL2_Crowbar"		"CROWBAR"
+"HL2_Grenade"		"GRENADE"
+"HL2_GravityGun"	"ZERO-POINT ENERGY GUN\n(GRAVITY GUN)"
+"HL2_Pistol"		"9MM PISTOL"
+"HL2_RPG"		"RPG\n(ROCKET PROPELLED GRENADE)"
+"HL2_Shotgun"		"SHOTGUN"
+"HL2_SMG1"		"SMG\n(SUBMACHINE GUN)"
+
+//In-game
+"hl2_AmmoFull"			"FULL"
+"HL2_Saved"		"Saved..."
+"HL2_Enable_Commentary"	"Enable commentary track"
+
+//Hints (via env_hudhint)
+"Valve_Hint_Crouch" "%+duck% CROUCH"
+"Valve_Hint_Sprint" "%+speed% SPRINT"
+"Valve_Hint_PushButton" "%+use% PUSH BUTTON"
+"Valve_Hint_PicKUp" "%+use% PICK UP"
+"Valve_Hint_Interact" "%+use% INTERACT"
+"Valve_Hint_GravGun" "%+attack% PUNT OBJECT %+attack2% PULL OBJECT"
+"Valve_Hint_CarryTurret" "%+use% OR GRAVITY GUN TO PICK UP TURRET"
+"Valve_Hint_CROSSBOW" "%+attack2% CROSSBOW ZOOM"
+"Valve_Hint_EnterVan" "%+use% ENTER VAN"
+"Valve_Hint_ExitVan" "%+use% EXIT VAN"
+//Hints, custom
+"Valve_Hint_Kick" "%+kick% KICK"
+
+//Binds (kb_act.lst)
+"SMMOD_Bind_Heading" "NEW FEATURES"
+"SMMOD_Bind_Kick" "Kick attack"
+
+//Credits
+"HL2_Credits_VoicesTitle"		"Voices:"
+"HL2_Credits_Eli"			"Robert Guillaume - Dr. Eli Vance"
+"HL2_Credits_Breen"			"Robert Culp - Dr. Wallace Breen"
+"HL2_Credits_Vortigaunt"		"Lou Gossett, Jr. - Vortigaunt"
+"HL2_Credits_Mossman"			"Michelle Forbes - Dr. Judith Mossman"
+"HL2_Credits_Alyx"			"Merle Dandridge - Alyx Vance"
+"HL2_Credits_Barney"			"Mike Shapiro - Barney Calhoun"
+"HL2_Credits_Gman"			"Mike Shapiro - Gman"
+"HL2_Credits_Kleiner"			"Harry S. Robins - Dr. Isaac Kleiner"
+"HL2_Credits_Grigori"			"Jim French - Father Grigori"
+"HL2_Credits_Misc1"			"John Patrick Lowrie - Citizens\Misc. characters"
+"HL2_Credits_Misc2"			"Mary Kae Irvin - Citizens\Misc. characters"
+"HL2_Credits_Overwatch"			"Ellen McLain - Overwatch"
+
+"HL2_Credits_VoiceCastingTitle"		"Voice Casting:"
+"HL2_Credits_VoiceCastingText"		"Shana Landsburg\Teri Fiddleman"
+
+"HL2_Credits_VoiceRecordingTitle"	"Voice Recording:"
+"HL2_Credits_VoiceRecordingText1"	"Pure Audio, Seattle, WA"
+"HL2_Credits_VoiceRecordingText2"	"LA Studios, LA, CA"
+
+"HL2_Credits_VoiceSchedulingTitle"	"Voice recording scheduling and logistics:"
+"HL2_Credits_VoiceSchedulingText"	"Pat Cockburn, Pure Audio"
+
+"HL2_Credits_LegalTeam"			"Crack Legal Team:"
+"HL2_Credits_FacesThanks"		"Thanks to the following for the use of their faces:"
+"HL2_Credits_SpecialThanks"		"Special thanks to everyone at:"
+} 
+}
