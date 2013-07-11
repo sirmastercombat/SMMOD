@@ -1,0 +1,2 @@
+make a foldier of your addon and only it's contents, and then drag it into the makeaddon.bat file, it will generate a .vpk file. Works for mapadd, custom weapons, skins, and such.
+You do not need to make it a .vpk unless you wish to distribute the file.

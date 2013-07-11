@@ -31,6 +31,17 @@
                                 "OnDeath" "mapadd,RunLabel,Riot,0.1,1"
                         }
                 }
+		"remove:sphere"
+		{
+			"x" "-307.997528"
+			"y" "-431.941864"
+			"z"     "-415.968750"
+			"radius" "16"
+			"entities"
+			{
+				"npc_metropolice" //Note to self, find fix.
+			}
+		}
  
         }
  

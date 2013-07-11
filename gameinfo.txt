@@ -47,10 +47,10 @@
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
 			// that's used when writing to the "mod" path.
+			game+mod			|gameinfo_path|addons/*
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
 			game				|gameinfo_path|smmod_pak.vpk //Yes... We have our own VPK...
-			
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
@@ -73,8 +73,10 @@
 
 			// Add the HL2 directory as a game search path.  This is also where where writes
 			// to the "game" path go.
-			game+game_write		ep2
-
+			game+game_write+mod		hl2
+			game+game_write+mod		ep1
+			game+game_write+mod		ep2
+			game+game_write+mod		cstrike
 			// Where the game's binaries are
 			gamebin				episodic/bin
 
