@@ -53,6 +53,7 @@
 "Valve_Hint_PicKUp" "%+use% PICK UP"
 "Valve_Hint_PushButton" "%+use% PUSH BUTTON"
 "Valve_Hint_Sprint" "%+speed% SPRINT"
+
 //Hints, custom
 "Valve_Hint_Kick" "%+kick% KICK"
 
@@ -90,3 +91,4 @@
 "HL2_Credits_SpecialThanks"		"Special thanks to everyone at:"
 } 
 }
+
