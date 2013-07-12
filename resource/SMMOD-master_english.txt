@@ -4,7 +4,6 @@
 "Tokens" 
 { 
 //Chapter titles
-//First part of the string should match the mod directory name
 "SMMOD-master_Chapter0_Title"  "OUR STORY SO FAR..."
 "SMMOD-master_Chapter1_Title"	"TO THE WHITE FOREST"
 "SMMOD-master_Chapter2_Title"	"THIS VORTAL COIL"
@@ -37,22 +36,23 @@
 "HL2_Shotgun"		"SHOTGUN"
 "HL2_SMG1"		"SMG\n(SUBMACHINE GUN)"
 
-//In-game
+//In-game messages
 "hl2_AmmoFull"			"FULL"
 "HL2_Saved"		"Saved..."
+"HL2_SAVING"    "Saving..."
 "HL2_Enable_Commentary"	"Enable commentary track"
 
 //Hints (via env_hudhint)
-"Valve_Hint_Crouch" "%+duck% CROUCH"
-"Valve_Hint_Sprint" "%+speed% SPRINT"
-"Valve_Hint_PushButton" "%+use% PUSH BUTTON"
-"Valve_Hint_PicKUp" "%+use% PICK UP"
-"Valve_Hint_Interact" "%+use% INTERACT"
-"Valve_Hint_GravGun" "%+attack% PUNT OBJECT %+attack2% PULL OBJECT"
 "Valve_Hint_CarryTurret" "%+use% OR GRAVITY GUN TO PICK UP TURRET"
 "Valve_Hint_CROSSBOW" "%+attack2% CROSSBOW ZOOM"
+"Valve_Hint_Crouch" "%+duck% CROUCH"
 "Valve_Hint_EnterVan" "%+use% ENTER VAN"
 "Valve_Hint_ExitVan" "%+use% EXIT VAN"
+"Valve_Hint_GravGun" "%+attack% PUNT OBJECT %+attack2% PULL OBJECT
+"Valve_Hint_Interact" "%+use% INTERACT"
+"Valve_Hint_PicKUp" "%+use% PICK UP"
+"Valve_Hint_PushButton" "%+use% PUSH BUTTON"
+"Valve_Hint_Sprint" "%+speed% SPRINT"
 //Hints, custom
 "Valve_Hint_Kick" "%+kick% KICK"
 
