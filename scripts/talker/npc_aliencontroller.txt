@@ -1,0 +1,87 @@
+//============================================================================================================
+// AlienController criteria
+//============================================================================================================
+criterion "IsAlienController" "classname" "npc_aliencontroller" required
+
+criterion "AlienControllerAttack" "concept" "ACONTROLLER_ATTACK" required
+criterion "AlienControllerAlert" "concept" "ACONTROLLER_ALERT" required
+//criterion "AlienControllerIdle" "concept" "ACONTROLLER_IDLE" required
+criterion "AlienControllerIdle" "concept" "ACONTROLLER_IDLE" required
+
+
+//============================================================================================================
+// Alien Controller Attack
+//============================================================================================================
+
+response "AlienController_AttackGroup" 
+{
+	permitrepeats
+	scene "scenes/npc/aliencontroller/vortigese.vcd" 	weight 0.1
+	scene "scenes/npc/aliencontroller/void.vcd" 		weight 0.5
+	scene "scenes/npc/aliencontroller/no_regrets.vcd" 	weight 0.1
+	scene "scenes/npc/aliencontroller/gibberish.vcd" 	weight 0.1
+}
+
+response "AlienController_Attack"
+{
+	response AlienController_AttackGroup respeakdelay 20
+}
+
+rule AlienControllerAttack1
+{
+	criteria		IsAlienController AlienControllerAttack
+	response 		AlienController_Attack
+}
+
+//============================================================================================================
+// Alien Controller Alert 
+//============================================================================================================
+
+
+
+response AlienController_Alert
+{
+	response AlienController_AttackGroup respeakdelay 20
+}
+
+rule AlienControllerAlertPlayer
+{
+	criteria		IsAlienController AlienControllerAlert
+	seeplayer required
+	response		AlienController_Alert
+}
+
+rule AlienControllerAlertCP
+{
+	criteria		IsAlienController AlienControllerAlert 
+	enemy npc_metropolice required
+	response		AlienController_Alert
+}
+
+rule AlienControllerAlertCombine
+{
+	criteria		IsAlienController AlienControllerAlert 
+	enemy npc_combine_s required
+	response		AlienController_Alert
+}
+
+//============================================================================================================
+// Alien Controller idle
+//============================================================================================================
+
+response "AlienController_IdleGroup"
+{
+	scene "scenes/npc/aliencontroller/vortigese.vcd" 	weight 0.1
+}
+
+response AlienController_Idle
+{
+	response AlienController_HideGroup respeakdelay 15
+}
+
+rule AlienControllerIdle
+{
+	criteria		IsAlienController AlienControllerIdle FiveSecondsSinceSeen
+	response		AlienController_Idle
+}
+

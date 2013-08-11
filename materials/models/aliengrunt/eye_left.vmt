@@ -1,0 +1,5 @@
+"eyes"
+{
+	"$basetexture" "models/vortigaunt/eyeball"
+	"$iris" "models/vortigaunt/pupil"
+}

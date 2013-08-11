@@ -1,0 +1,25 @@
+"Refract"
+{
+$basetexture _rt_Scope
+	"$model" 1
+
+	"Refract_dx90"
+	{
+		"$refractamount" "0.5"
+		"$normalmap" "dev/water_normal"
+ 		"$bluramount" "1"
+		"$refracttint" "[0.8 1 1]"
+	}
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+
+	
+}

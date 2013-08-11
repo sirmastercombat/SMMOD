@@ -39,7 +39,7 @@
 			"radius" "16"
 			"entities"
 			{
-				"npc_metropolice" //Note to self, find fix.
+				"classname" "npc_metropolice" //Note to self, find fix.
 			}
 		}
  

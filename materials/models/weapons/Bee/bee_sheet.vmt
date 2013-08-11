@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Weapons/Bee/bee_sheet"
+	"$halflambert" 1
+	"$nodecal" 1
+	"%keywords" "Xen"
+}

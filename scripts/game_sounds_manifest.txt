@@ -117,4 +117,6 @@ game_sounds_manifest
    	"precache_file"		"scripts/npc_sounds_combine_cannon.txt"
 	"precache_file"		"scripts/npc_sounds_alyx_episodic2.txt"
 	"precache_file"		"scripts/npc_sounds_turret_episodic2.txt"
+	"precache_file"		"scripts/npc_sounds_aliengrunt.txt"
+	"precache_file"		"scripts/npc_sounds_aliencontroller.txt"
 }

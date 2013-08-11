@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/aliengrunt/aliengrunt_sheet"
+	"$bumpmap" "models/aliengrunt/aliengrunt_normal"
+	"$halflambert" 1
+	"$nodecal" 1
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/aliengrunt/aliengrunt_exponent"
+	"$phongboost"	"10"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[.18 .4 1]"
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "10"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "3"										// Boost for ambient cube component of rim lighting
+
+
+
+
+	"%keywords" "Xen"
+}

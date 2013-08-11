@@ -53,10 +53,8 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 			game_lv				hl2/hl2_lv.vpk
-			game+mod			ep2/ep2_english.vpk
-			game+mod			ep2/ep2_pak.vpk
-			game+mod			cstrike/cstrike_english.vpk
-			game+mod			cstrike/cstrike_pak.vpk
+			game				ep2/ep2_english.vpk
+			game				ep2/ep2_pak.vpk
 			game				|all_source_engine_paths|episodic/ep1_english.vpk
 			game				|all_source_engine_paths|episodic/ep1_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
@@ -67,12 +65,20 @@
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
-			// Add the HL2 directory as a game search path.  This is also where where writes
-			// to the "game" path go.
-			game+game_write+mod		hl2
-			game+game_write+mod		ep1
-			game+game_write+mod		ep2
-			game+game_write+mod		cstrike
+			game				"|gameinfo_path|..\..\common\Half-Life 2\hl2\hl2_textures.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\hl2\hl2_pak.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2 Deathmatch\hl2mp\hl2mp_pak.vpk"
+			game				"|gameinfo_path|..\..\common\Counter-Strike Source\cstrike\cstrike_pak.vpk"
+			//game				"|gameinfo_path|..\..\common\left 4 dead 2\left4dead2\pak01.vpk"
+
+			game				"|gameinfo_path|..\..\common\Half-Life 2\hl2\"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\episodic\"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\ep2\"
+			game				"|gameinfo_path|..\..\common\Half-Life 2 Deathmatch\hl2mp\"
+			game				"|gameinfo_path|..\..\common\Counter-Strike Source\cstrike\"
+			//game				"|gameinfo_path|..\..\common\left 4 dead 2\left4dead2\"
 			// Where the game's binaries are
 			gamebin				episodic/bin
 

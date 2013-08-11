@@ -1,0 +1,119 @@
+//============================================================================================================
+// AlienGrunt criteria
+//============================================================================================================
+criterion "IsAlienGrunt" "classname" "npc_aliengrunt" required
+
+criterion "AlienGruntAttack" "concept" "AGRUNT_ATTACK" required
+criterion "AlienGruntAlert" "concept" "AGRUNT_ALERT" required
+//criterion "AlienGruntIdle" "concept" "AGRUNT_IDLE" required
+criterion "AlienGruntHide" "concept" "AGRUNT_HIDE" required
+criterion "AlienGruntCharge" "concept" "AGRUNT_CHARGE" required
+criterion "FiveSecondsSinceSeen" "timesinceseenplayer" ">4" "required"
+
+
+//============================================================================================================
+// Alien Grunt Alert 
+//============================================================================================================
+response "AlienGrunt_AlertGroup" 
+{
+	permitrepeats
+	scene "scenes/npc/aliengrunt/trex.vcd" weight 3
+	scene "scenes/npc/aliengrunt/combine.vcd" weight 1
+	scene "scenes/npc/aliengrunt/combinehere.vcd" weight 1
+
+}
+
+response AlienGrunt_Alert
+{
+	response AlienGrunt_AlertGroup respeakdelay 20
+}
+
+rule AlienGruntAlertPlayer
+{
+	criteria		IsAlienGrunt AlienGruntAlert
+	seeplayer required
+	response		AlienGrunt_Alert
+}
+
+rule AlienGruntAlertCP
+{
+	criteria		IsAlienGrunt AlienGruntAlert 
+	enemy npc_metropolice required
+	response		AlienGrunt_Alert
+}
+
+rule AlienGruntAlertCombine
+{
+	criteria		IsAlienGrunt AlienGruntAlert 
+	enemy npc_combine_s required
+	response		AlienGrunt_Alert
+}
+
+//============================================================================================================
+// Alien Grunt Attack
+//============================================================================================================
+
+response "AlienGrunt_AttackGroup" 
+{
+	permitrepeats
+	scene "scenes/npc/aliengrunt/attack.vcd" weight 1.0 
+	scene "scenes/npc/aliengrunt/getaway.vcd" weight 0.1 
+	scene "scenes/npc/aliengrunt/goaway.vcd" weight 0.1 
+
+}
+
+response "AlienGrunt_Attack"
+{
+	response AlienGrunt_AttackGroup respeakdelay 8
+}
+
+rule AlienGruntAttack1
+{
+	criteria		IsAlienGrunt AlienGruntAttack
+	response 		AlienGrunt_Attack
+}
+
+//============================================================================================================
+// Alien Grunt Charge
+//============================================================================================================
+
+response "AlienGrunt_ChargeGroup" 
+{
+	permitrepeats
+	scene "scenes/npc/aliengrunt/attack.vcd" weight 1.0 
+}
+
+response "AlienGrunt_Charge"
+{
+	response AlienGrunt_ChargeGroup respeakdelay 2
+}
+
+rule AlienGruntAttack1
+{
+	criteria		IsAlienGrunt AlienGruntCharge
+	response 		AlienGrunt_Charge
+}
+
+
+//============================================================================================================
+// Alien Grunt Hide
+//============================================================================================================
+
+response "AlienGrunt_HideGroup"
+{
+	scene "scenes/npc/aliengrunt/hide1.vcd" 
+	scene "scenes/npc/aliengrunt/hide2.vcd" 
+	scene "scenes/npc/aliengrunt/hide3.vcd" 
+	scene "scenes/npc/aliengrunt/hide4.vcd"
+}
+
+response AlienGrunt_Hide
+{
+	response AlienGrunt_HideGroup respeakdelay 15
+}
+
+rule AlienGruntHideAndSeek
+{
+	criteria		IsAlienGrunt AlienGruntHide FiveSecondsSinceSeen
+	response		AlienGrunt_Hide
+}

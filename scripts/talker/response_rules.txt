@@ -156,3 +156,5 @@
 //#include "talker/npc_barney_episodic.txt"
 #include "talker/nags_Alyx.txt"
 #include "talker/npc_alyx_vehicle.txt"
+#include "talker/npc_aliengrunt.txt"
+#include "talker/npc_aliencontroller.txt"
