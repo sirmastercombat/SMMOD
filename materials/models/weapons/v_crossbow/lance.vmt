@@ -1,6 +1,6 @@
 "Refract"
 {
-$basetexture _rt_Scope
+	$basetexture _rt_Scope
 	"$model" 1
 
 	"Refract_dx90"

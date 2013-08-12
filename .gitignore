@@ -20,5 +20,8 @@
 config.cfg
 maps/soundcache/*
 DownloadLists/*
+shadereditorui/shader_src/*.fxc
+shadereditorui/shader_src/shaders/*
+shaders/fxc/0*.vcs
 *.cache
 *.pdb
