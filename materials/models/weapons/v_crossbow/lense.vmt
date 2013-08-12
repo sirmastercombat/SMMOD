@@ -1,9 +1,9 @@
 "VertexLitGeneric"
 {
 	"$model" 1
-	"$basetexture" "Models/Weapons/v_crossbow/lense"
+	"$basetexture" "Models/Weapons/v_crossbow/svdscope1"
 	"$translucent" 1
-	"$no_draw" 1
+	"$no_draw" 0
 }
 
 

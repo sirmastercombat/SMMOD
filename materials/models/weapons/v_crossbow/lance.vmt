@@ -5,10 +5,11 @@ $basetexture _rt_Scope
 
 	"Refract_dx90"
 	{
-		"$refractamount" "0.5"
+		"$refractamount" "0.003"
 		"$normalmap" "dev/water_normal"
- 		"$bluramount" "1"
+ 		"$bluramount" "0.003"
 		"$refracttint" "[0.8 1 1]"
+	//	"$bumpmap" "models/weapons/v_crossbow/lens"
 	}
 
 	"Proxies"

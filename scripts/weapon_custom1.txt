@@ -95,14 +95,11 @@ WeaponData
 				"ShotCount"	"7"
 				"Spread" // Spread is in degrees
 				{
-					"x"	"7" //Makes a horizontal line of bullets, think linegun from dead space
+					"x"	"1" //Makes a horizontal line of bullets, think linegun from dead space
 					"y"	"0"
 					"z"	"0"
 				}
 			}	
-			"Missle" //._. meep. No params yet
-			{
-			}
 		}
 		"SecondaryFire"
 		{
@@ -119,9 +116,6 @@ WeaponData
 					"z"	"1"
 				}
 			}	
-			"Missle" //._. meep. No params yet
-			{
-			}
 		}
 	}
 }
