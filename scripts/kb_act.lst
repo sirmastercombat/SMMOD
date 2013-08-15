@@ -3,6 +3,7 @@
 "blank"			"=========================="
 "+kick"					"#SMMOD_Bind_Kick"
 "toggle_ironsight"		"#SMMOD_Bind_Ironsight"
+"+ironsight"		"#SMMOD_Bind_Ironsight_Hold"
 "blank"  		"=========================="
 "blank"			"#Valve_Movement_Title"
 "blank"			"=========================="
