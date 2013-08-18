@@ -12,6 +12,5 @@ common_flashlight_fxc.h
 common_parallax.h
 ..\..\..\..\common\Source SDK Base 2013 Singleplayer\bin\shadercompile.exe
 ..\..\..\..\common\Source SDK Base 2013 Singleplayer\bin\shadercompile_dll.dll
-00019B_refract_sahderwithscope_pos_preview_vs30.fxc
-00019B_refract_sahderwithscope_preview_vs30.fxc
-00019B_refract_sahderwithscope_preview_ps30.fxc
+smod_scope_vs30.fxc
+smod_scope_ps30.fxc

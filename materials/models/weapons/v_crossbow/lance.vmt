@@ -1,26 +1,24 @@
-"Refract"
+"Mod_Example_Model"
 {
 	$basetexture _rt_Scope
-	"$model" 1
+}
+// "Refract"
+// {
+	// $basetexture _rt_Scope
+	// "$model" 1
 
-	"Refract_dx90"
-	{
-		"$refractamount" "0.003"
-		"$normalmap" "dev/water_normal"
- 		"$bluramount" "0.003"
-		"$refracttint" "[0.8 1 1]"
-	//	"$bumpmap" "models/weapons/v_crossbow/lens"
-	}
+	// "Refract_dx90"
+	// {
+		// "$refractamount" "0.003"
+		// "$normalmap" "dev/water_normal"
+ 		// "$bluramount" "0.003"
+		// "$refracttint" "[0.8 1 1]"
+		"$bumpmap" "models/weapons/v_crossbow/lens"
+	// }
 
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$normalmap"
-			"animatedtextureframenumvar" "$bumpframe"
-			"animatedtextureframerate" 30.00
-		}
-	}
+	// "Proxies"
+	// {
+	// }
 
 	
-}
+// }

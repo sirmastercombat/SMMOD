@@ -31,6 +31,30 @@
                                 "OnDeath" "mapadd,RunLabel,Riot,0.1,1"
                         }
                 }
+		"ambient_generic"
+		{
+                        "x" "-27.571594"
+                        "y" "-123.720215"
+                        "z"     "-415.968750"
+                        "roll"  "0"  
+                        "yaw"   "0"
+                        "pitch" "0"
+                        "KeyValues"
+                        {
+							"targetname" "TomatoSong"
+							"health" "10f"
+							"message" "ui/gamestartup_smod_soundtrack_-_city17.mp3"
+							"pitch" "100f"
+							"pitchstart" "100f"
+							"radius" "1250f"
+                        }
+		}
+		"trigger_multiple"
+		{
+			"KeyValues"
+			{
+			}
+		}
 		"remove:sphere"
 		{
 			"x" "-307.997528"

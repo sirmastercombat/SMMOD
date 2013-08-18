@@ -1,0 +1,26 @@
+"MapAdd"
+{
+        "Init"
+        {
+		"prop_physics" {
+                     	"x" "-3793.805176"
+                        "y" "-688.031250"
+                        "z"     "143.602249"
+			"keyvalues" {
+				"fadescale" "0"
+
+				"spawnflags" "261"
+
+				"model" "models/props_junk/gascan001a.mdl"
+
+				"fademindist" "-1"
+
+				"inertiaScale" "1.0"
+
+				"physdamagescale" "80"
+
+			}
+		}
+
+        }
+ 

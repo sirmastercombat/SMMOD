@@ -1,8 +1,8 @@
 "GameInfo"
 {
-	game 		"SMMOD (SMOD 2/3) (STEAMPIPE Version TEST!)"
-	title 		"HALF-LIFE'"
-	title2		"== episode two =="
+	game 		"SMMOD (Singleplayer)"
+	title 		"SMMOD"
+	title2		"(Singleplayer)"
 
 	type		singleplayer_only
 
@@ -53,32 +53,33 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 			game_lv				hl2/hl2_lv.vpk
-			game				ep2/ep2_english.vpk
-			game				ep2/ep2_pak.vpk
-			game				|all_source_engine_paths|episodic/ep1_english.vpk
-			game				|all_source_engine_paths|episodic/ep1_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
-			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
-			game				"|gameinfo_path|..\..\common\Half-Life 2\hl2\hl2_textures.vpk"
-			game				"|gameinfo_path|..\..\common\Half-Life 2\hl2\hl2_pak.vpk"
-			game				"|gameinfo_path|..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
-			game				"|gameinfo_path|..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
-			game				"|gameinfo_path|..\..\common\Half-Life 2 Deathmatch\hl2mp\hl2mp_pak.vpk"
-			game				"|gameinfo_path|..\..\common\Counter-Strike Source\cstrike\cstrike_pak.vpk"
-			//game				"|gameinfo_path|..\..\common\left 4 dead 2\left4dead2\pak01.vpk"
 
 			game				"|gameinfo_path|..\..\common\Half-Life 2\hl2\"
 			game				"|gameinfo_path|..\..\common\Half-Life 2\episodic\"
 			game				"|gameinfo_path|..\..\common\Half-Life 2\ep2\"
 			game				"|gameinfo_path|..\..\common\Half-Life 2 Deathmatch\hl2mp\"
 			game				"|gameinfo_path|..\..\common\Counter-Strike Source\cstrike\"
-			//game				"|gameinfo_path|..\..\common\left 4 dead 2\left4dead2\"
+
+			game				"|gameinfo_path|..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\episodic\ep1_english.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2\ep2\ep2_english.vpk"
+			game				"|gameinfo_path|..\..\common\Half-Life 2 Deathmatch\hl2mp\hl2mp_pak.vpk"
+
+			game				|all_source_engine_paths|ep2/ep2_sound_vo_english.vpk
+			game				|all_source_engine_paths|ep2/ep2_pak.vpk
+			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
+			game				|all_source_engine_paths|episodic/ep1_pak.vpk
+
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
+	
 			// Where the game's binaries are
 			gamebin				episodic/bin
 

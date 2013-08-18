@@ -1,0 +1,393 @@
+
+//COMBINE SOLDIER
+
+// COMBINE SOLDIER
+
+// V_ indicates 'virtual' name or number
+// last letter indicates type: 'S' = soldier
+
+// soldier names, remembered by speaker:
+
+V_MYNAMES0 leader {Len 0.4}
+V_MYNAMES1 flash {Len 0.4}
+V_MYNAMES2 ranger {Len 0.4}
+V_MYNAMES3 hunter {Len 0.4}
+V_MYNAMES4 blade {Len 0.4}
+V_MYNAMES5 scar {Len 0.4}
+V_MYNAMES6 hammer {Len 0.4}
+V_MYNAMES7 sweeper {Len 0.4}
+V_MYNAMES8 swift {Len 0.4}
+V_MYNAMES9 fist {Len 0.4}
+V_MYNAMES10 sword {Len 0.4}
+V_MYNAMES11 savage {Len 0.4}
+V_MYNAMES12 tracker {Len 0.4}
+V_MYNAMES13 slash {Len 0.4}
+V_MYNAMES14 razor {Len 0.4}
+V_MYNAMES15 stab {Len 0.4}
+V_MYNAMES16 spear {Len 0.4}
+V_MYNAMES17 striker {Len 0.4}
+V_MYNAMES18 dagger {Len 0.4}
+
+// air support names:
+
+V_RNDNAMES0 ghost {Len 0.4}
+V_RNDNAMES1 reaper {Len 0.4}
+V_RNDNAMES2 nomad {Len 0.4}
+V_RNDNAMES3 hurricane {Len 0.4}
+V_RNDNAMES4 phantom {Len 0.4}
+V_RNDNAMES5 judge {Len 0.4}
+V_RNDNAMES6 shadow {Len 0.4}
+V_RNDNAMES7 slam {Len 0.4}
+V_RNDNAMES8 stinger {Len 0.4}
+V_RNDNAMES9 storm {Len 0.4}
+V_RNDNAMES10 vamp {Len 0.4}
+V_RNDNAMES11 winder {Len 0.4}
+V_RNDNAMES12 star {Len 0.4}  
+
+//phonetic alphabet/codes:
+
+V_RNDCODES0 apex {Len 0.4}
+V_RNDCODES1 ion {Len 0.4}
+V_RNDCODES2 jet {Len 0.4}
+V_RNDCODES3 kilo {Len 0.4}
+V_RNDCODES4 mace {Len 0.4}
+V_RNDCODES5 nova {Len 0.4}
+V_RNDCODES6 payback {Len 0.4}
+V_RNDCODES7 sundown {Len 0.4}
+V_RNDCODES8 uniform {Len 0.4}
+V_RNDCODES9 boomer {Len 0.4}
+V_RNDCODES10 echo {Len 0.4}
+V_RNDCODES11 flatline {Len 0.4}
+V_RNDCODES12 helix {Len 0.4}
+V_RNDCODES13 ice {Len 0.4}
+V_RNDCODES14 quicksand {Len 0.4}
+V_RNDCODES15 payback {Len 0.4}
+V_RNDCODES16 ripcord {Len 0.4}
+
+//Numbers, remembered by speaker:
+
+V_MYNUMS0 zero {Len 0.4}
+V_MYNUMS1 one {Len 0.4}
+V_MYNUMS2 two {Len 0.4}
+V_MYNUMS3 three {Len 0.4}
+V_MYNUMS4 four {Len 0.4}
+V_MYNUMS5 five {Len 0.4}
+V_MYNUMS6 six {Len 0.4}
+V_MYNUMS7 seven {Len 0.4}
+V_MYNUMS8 eight {Len 0.4}
+V_MYNUMS9 niner {Len 0.4}
+
+// random numbers
+
+V_RNDNUMS0 zero {Len 0.4}
+V_RNDNUMS1 one {Len 0.4}
+V_RNDNUMS2 two {Len 0.4}
+V_RNDNUMS3 three {Len 0.4}
+V_RNDNUMS4 four {Len 0.4}
+V_RNDNUMS5 five {Len 0.4}
+V_RNDNUMS6 six {Len 0.4}
+V_RNDNUMS7 seven {Len 0.4}
+V_RNDNUMS8 eight {Len 0.4}
+V_RNDNUMS9 niner {Len 0.4}
+
+// numbers, must be in order, used for distance/heading to player use: V_DISTS or V_DIRS
+
+V_NUMBERSS0 zero {Len 0.4}
+V_NUMBERSS1 one {Len 0.4}
+V_NUMBERSS2 two {Len 0.4}
+V_NUMBERSS3 three {Len 0.4}
+V_NUMBERSS4 four {Len 0.4}
+V_NUMBERSS5 five {Len 0.4}
+V_NUMBERSS6 six {Len 0.4}
+V_NUMBERSS7 seven {Len 0.4}
+V_NUMBERSS8 eight {Len 0.4}
+V_NUMBERSS9 niner {Len 0.4}
+V_NUMBERSS10 ten {Len 0.4}
+V_NUMBERSS11 eleven {Len 0.4}
+V_NUMBERSS12 twelve {Len 0.4}
+V_NUMBERSS13 thirteen {Len 0.4}
+V_NUMBERSS14 fourteen {Len 0.4}
+V_NUMBERSS15 fifteen {Len 0.4}
+V_NUMBERSS16 sixteen {Len 0.4}
+V_NUMBERSS17 seventeen {Len 0.4}
+V_NUMBERSS18 eighteen {Len 0.4}
+V_NUMBERSS19 nineteen {Len 0.4}
+V_NUMBERSS20 twenty {Len 0.4}
+V_NUMBERSS21 thirty {Len 0.4}
+V_NUMBERSS22 fourty {Len 0.4}
+V_NUMBERSS23 fifty {Len 0.4}
+V_NUMBERSS24 sixty {Len 0.4}
+V_NUMBERSS25 seventy {Len 0.4}
+V_NUMBERSS26 eighty {Len 0.4}
+V_NUMBERSS27 ninety {Len 0.4}
+V_NUMBERSS28 onehundred {Len 0.4}
+V_NUMBERSS29 twohundred {Len 0.4}
+V_NUMBERSS30 threehundred {Len 0.4}
+
+// rnd global, used to designate target
+
+V_G0_PLAYERS0 freeman3 {len 0.5}
+V_G0_PLAYERS1 anticitizenone {len 0.5}
+V_G0_PLAYERS2 targetone {len 0.5}
+V_G0_PLAYERS3 priority1objective {len 0.5}
+V_G0_PLAYERS4 phantom {len 0.5}
+V_G0_PLAYERS5 ghost2 {len 0.5}
+
+// sequential gobal numbers, used for counting enemies down
+
+V_SEQGLOBNBRS0 zero {Len 0.4}
+V_SEQGLOBNBRS1 one {Len 0.4}
+V_SEQGLOBNBRS2 two {Len 0.4}
+V_SEQGLOBNBRS3 three {Len 0.4}
+V_SEQGLOBNBRS4 four {Len 0.4}
+V_SEQGLOBNBRS5 five {Len 0.4}
+V_SEQGLOBNBRS6 six {Len 0.4}
+V_SEQGLOBNBRS7 seven {Len 0.4}
+V_SEQGLOBNBRS8 eight {Len 0.4}
+V_SEQGLOBNBRS9 niner {Len 0.4}
+V_SEQGLOBNBRS10 ten {Len 0.4}
+V_SEQGLOBNBRS11 eleven {Len 0.4}
+V_SEQGLOBNBRS12 twelve {Len 0.4}
+V_SEQGLOBNBRS13 thirteen {Len 0.4}
+V_SEQGLOBNBRS14 fourteen {Len 0.4}
+V_SEQGLOBNBRS15 fifteen {Len 0.4}
+V_SEQGLOBNBRS16 sixteen {Len 0.4}
+V_SEQGLOBNBRS17 seventeen {Len 0.4}
+V_SEQGLOBNBRS18 eighteen {Len 0.4}
+V_SEQGLOBNBRS19 nineteen {Len 0.4}
+V_SEQGLOBNBRS20 twenty {Len 0.4}
+
+
+//PAIN
+COMBINE_PAIN0 npc/combine_soldier/pain1 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN1 npc/combine_soldier/pain2 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN2 npc/combine_soldier/pain3 {Len 0.26 closecaption NPC_Combine.Pain}
+
+//DIE
+COMBINE_DIE0 npc/combine_soldier/die1 V_IDIEDS {Len 0.62 closecaption NPC_Combine.Death}
+COMBINE_DIE1 npc/combine_soldier/die2 V_IDIEDS {Len 0.92 closecaption NPC_Combine.Death}
+COMBINE_DIE2 npc/combine_soldier/die3 V_IDIEDS {Len 0.80 closecaption NPC_Combine.Death}
+
+
+//KICK
+COMBINE_KICK0 npc/combine_soldier/kick1 {Len 0.26}
+COMBINE_KICK1 npc/combine_soldier/kick2 {Len 0.31}
+
+
+// I am about to start shooting
+// Marc, for any sentences you want to caption, just add the closecaption entry to the {Len} block as below
+// COMBINE_ANNOUNCE0 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption}
+// To use a specified caption string, put it's name in there, too
+// COMBINE_ANNOUNCE0 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption NPCSound.Caption}
+
+COMBINE_ANNOUNCE0 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE1 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS gosharp off2 {Len 1.22 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE2 npc/combine_soldier/vo_kor/(v100) on2 V_MYNAMES V_MYNUMS prosecuting off1 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE3 npc/combine_soldier/vo_kor/(v100) on2 V_MYNAMES V_MYNUMS engaging off1 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE4 npc/combine_soldier/vo_kor/(v100) on2 cover off1 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// My enemy is close and I can see him
+
+COMBINE_ASSAULT0 npc/combine_soldier/vo_kor/(v100) on1 contact V_G0_PLAYERS off1 {Len 0.87 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT1 npc/combine_soldier/vo_kor/(v100) on1 contactconfirmprosecuting off1 {Len 1.23 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT2 npc/combine_soldier/vo_kor/(v100) on2 contactconfim off1 {Len 1.08 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT3 npc/combine_soldier/vo_kor/(v100) on2 targetmyradial V_DIRS degrees off3 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// I am moving in
+
+COMBINE_FLANK0 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS closing off1 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK1 npc/combine_soldier/vo_kor/(v100) on2 V_MYNAMES V_MYNUMS inbound off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_FLANK2 npc/combine_soldier/vo_kor/(v100) on1 movein off2 {Len 1.15  closecaption NPC_Combine.Coord}
+COMBINE_FLANK3 npc/combine_soldier/vo_kor/(v100) on2 V_MYNAMES V_MYNUMS sweepingin off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_FLANK4 npc/combine_soldier/vo_kor/(v100) on1 coverme off1 {Len 1.15  closecaption NPC_Combine.Coord}
+COMBINE_FLANK5 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES unitisclosing off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_FLANK6 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES unitisinbound off1 {Len 1.15 closecaption NPC_Combine.Coord}
+COMBINE_FLANK7 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES unitismovingin off1 {Len 1.15 closecaption NPC_Combine.Coord}
+
+
+// I am still alert and pursuing enemy
+
+COMBINE_GO_ALERT0 npc/combine_soldier/vo_kor/(v100) on1 alert1 off1 {Len 0.77  closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT1 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS executingfullresponse off1 {Len 0.77 closecaption NPC_Combine.Coord}
+
+// UNDONE: Nobody has seen enemy in 10 seconds
+
+COMBINE_LOST_LONG0 npc/combine_soldier/vo_kor/(v100) on1 targetblackout off1 {Len 1.14 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG1 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS lostcontact off1 {Len 1.08 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG2 npc/combine_soldier/vo_kor/(v100) on1 motioncheckallradials off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG3 npc/combine_soldier/vo_kor/(v100) on1 stayalertreportsightlines off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG4 npc/combine_soldier/vo_kor/(v100) on1 overwatch, teamdeployedandscanning off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG5 npc/combine_soldier/vo_kor/(v100) on1 overwatch, V_MYNAMES V_MYNUMS engagedincleanup off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG6 npc/combine_soldier/vo_kor/(v100) on1 readyweapons, stayalert off1 {Len 1.05 closecaption NPC_Combine.RadioChatter}
+
+// UNDONE: Nobody has seen enemy in 5 seconds
+
+COMBINE_LOST_SHORT0 npc/combine_soldier/vo_kor/(v100) on1 targetisat shaddow4 off1 {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT1 npc/combine_soldier/vo_kor/(v100) on1 readyextractors off1 {Len 1.19 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT2 npc/combine_soldier/vo_kor/(v100) on1 readycharges off1 {Len 1.13 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT3 npc/combine_soldier/vo_kor/(v100) on1 fixsightlinesmovein  off1 {Len 1.13 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT4 npc/combine_soldier/vo_kor/(v100) on1 on1 containmentproceeding off1 {Len 0.98 closecaption NPC_Combine.RadioChatter}
+
+// I just saw a friendly die
+
+COMBINE_MAN_DOWN0 npc/combine_soldier/vo_kor/(v100) on1 V_WHODIEDS onedown onedown off1 {Len 1.28 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN1 npc/combine_soldier/vo_kor/(v100) on1 V_WHODIEDS onedutyvacated off1 {Len 1.41 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN2 npc/combine_soldier/vo_kor/(v100) on2 heavyresistance off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN3 npc/combine_soldier/vo_kor/(v100) on1 overwatchrequestreinforcement off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN4 npc/combine_soldier/vo_kor/(v100) on1 V_WHODIEDS onedown, hardenthatposition off3 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// UNDONE: Just found enemy after lost long
+
+COMBINE_REFIND_ENEMY0 npc/combine_soldier/vo_kor/(v100) on1 target V_G0_PLAYERS, goactiveintercept off1 {Len 0.77 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY1 npc/combine_soldier/vo_kor/(v100) on2 gosharp range V_DISTS off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY2 npc/combine_soldier/vo_kor/(v100) on2 targetcontactat V_GRIDXS dash V_GRIDYS off3 {Len 1.45 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY3 npc/combine_soldier/vo_kor/(v100) on2 viscon viscon(p110), range V_DISTS, bearing V_DIRS off3 {Len 1.45 closecaption NPC_Combine.Alert}
+
+// I am throwing a grenade
+
+COMBINE_THROW_GRENADE0 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS extractoraway off1 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE1 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS extractorislive off1 {Len 1.33 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE2 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS flush sharpzone off1 {Len 1.24 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE3 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS extractoraway sharpzone off1 {Len 1.24 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE4 npc/combine_soldier/vo_kor/(v100) on1. six, five, four, three, two, one, flash flash(p105) flash(p110) off1 {Len 1.24 closecaption NPC_Combine.Grenade}
+
+//COMBINE_THROW1 npc/combine_soldier/vo_kor/on1 (t30) take!(e75) this!(e100 t0) off1 {Len 1.03}
+//COMBINE_THROW2 npc/combine_soldier/vo_kor/(v10) on1(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) off1 {Len 1.37}
+
+// Enemy Grenade lands nearby (one man only)
+
+COMBINE_GREN0 npc/combine_soldier/vo_kor/(v100) on1(p120) bouncerbouncer off1 {Len 1.17 closecaption NPC_Combine.Grenade}
+COMBINE_GREN1 npc/combine_soldier/vo_kor/(v100) on1(p120) flaredown off1 {Len 1.17 closecaption NPC_Combine.Grenade}
+ 
+// Something dangerous nearby, need to run
+
+COMBINE_DANGER0 npc/combine_soldier/vo_kor/(v100) on1(p120) displace off1 {Len 1.17}
+COMBINE_DANGER1 npc/combine_soldier/vo_kor/(v100) on1(p120) displace2 off3 {Len 1.17}
+COMBINE_DANGER2 npc/combine_soldier/vo_kor/(v100) on1(p120) ripcordripcord off1 {Len 1.17}
+
+// Player Alert - first contact and I'm the squad leader
+
+COMBINE_ALERT0 npc/combine_soldier/vo_kor/(v100) on2(p110) contactconfim V_G0_PLAYERS, range V_DISTS meters, bearing V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT1 npc/combine_soldier/vo_kor/(v100) on1(p110) gosharpgosharp, V_DISTS meters off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT2 npc/combine_soldier/vo_kor/(v100) on2(p110) callcontacttarget1, grid V_GRIDXS dash V_GRIDYS off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT3 npc/combine_soldier/vo_kor/(v100) on1(p110) targetisat V_DISTS meters bearing V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT4 npc/combine_soldier/vo_kor/(v100) on1(p110) targetmyradial V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT5 npc/combine_soldier/vo_kor/(v100) on2(p110) contact V_G0_PLAYERS off3 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT6 npc/combine_soldier/vo_kor/(v100) on1(p110) targetcontactat V_DISTS meters, bearing V_DIRS degrees off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT7 npc/combine_soldier/vo_kor/(v100) on2(p110) designatetargetas V_G0_PLAYERS off1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT8 npc/combine_soldier/vo_kor/(v100) on1(p110) contactconfirmprosecuting off2 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT9 npc/combine_soldier/vo_kor/(v100) on1(p110) contactconfim, designatetargetas V_G0_PLAYERS off1 {Len 1.13 closecaption NPC_Combine.Alert}
+
+// last soldier's hit damaged player significantly
+
+COMBINE_PLAYERHIT0 npc/combine_soldier/vo_kor/(v100) targetcompromisedmovein off1 {Len 1.13}
+COMBINE_PLAYERHIT1 npc/combine_soldier/vo_kor/(v100) affirmativewegothimnow off1 {Len 1.13}
+COMBINE_PLAYERHIT2 npc/combine_soldier/vo_kor/(v100) thatsitwrapitup off2 {Len 1.13}
+
+// Monster Alert - first contact and I'm the squad leader
+
+COMBINE_MONST0 npc/combine_soldier/vo_kor/(v100) confirmsectornotsterile off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST1 npc/combine_soldier/vo_kor/(v100) visualonexogens off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST2 npc/combine_soldier/vo_kor/(v100) overwatch sector V_SECTORS infected off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+// Monster Alert - by type
+
+COMBINE_MONST_BUGS0 npc/combine_soldier/vo_kor/(v100) confirmsectornotsterile off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS1 npc/combine_soldier/vo_kor/(v100) swarmoutbreakinsector V_SECTORS off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS2 npc/combine_soldier/vo_kor/(v100) overwatch, weareinaninfestationzone, sector V_SECTORS off2 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS3 npc/combine_soldier/vo_kor/(v100) overwatch, wehavenontaggedviromes, grid V_GRIDXS dash V_GRIDYS off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_CITIZENS0 npc/combine_soldier/vo_kor/(v100) outbreak off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_CHARACTER0 npc/combine_soldier/vo_kor/(v100) target, prioritytwoescapee off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER1 npc/combine_soldier/vo_kor/(v100) outbreakstatusiscode hurricane off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_ZOMBIES0 npc/combine_soldier/vo_kor/(v100) necrotics off3 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES1 npc/combine_soldier/vo_kor/(v100) necroticsinbound off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES2 npc/combine_soldier/vo_kor/(v100) overwatch, weareinaninfestationzone, sector V_SECTORS off2 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_PARASITES0 npc/combine_soldier/vo_kor/(v100) callcontactparasitics off1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES1 npc/combine_soldier/vo_kor/(v100) overwatch, wehavefreeparasites, sector V_SECTORS off1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+// I killed a monster
+
+COMBINE_KILL_MONST0 npc/combine_soldier/vo_kor/(v100) V_SEQGLOBNBRS cleaned off1 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST1 npc/combine_soldier/vo_kor/(v100) V_SEQGLOBNBRS sterilized off3 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST2 npc/combine_soldier/vo_kor/(v100) V_SEQGLOBNBRS contained off1 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+
+// I was hit and it hurt. I'm taking cover (commented out in code)
+
+COMBINE_COVER0 npc/combine_soldier/vo_kor/(v100) on1 coverhurt off1 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER1 npc/combine_soldier/vo_kor/(v100) on1 displace2 off1 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER2 npc/combine_soldier/vo_kor/(v100) on2 V_MYNAMES V_MYNUMS requestmedical off1 {Len 0.95 closecaption NPC_Combine.Coord}
+COMBINE_COVER3 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS requeststimdose off1 {Len 0.95 closecaption NPC_Combine.Coord}
+
+
+// I took damage but it didn't hurt much (commented out in code)
+
+COMBINE_TAUNT0 npc/combine_soldier/vo_kor/(v100) on1(p110) targetineffective off1(p120) on1 {Len 1.32}
+COMBINE_TAUNT1 npc/combine_soldier/vo_kor/(v100) on2(p110) bodypackholding off2(p120) on1 {Len 1.32}
+COMBINE_TAUNT2 npc/combine_soldier/vo_kor/(v100) on1(p110) V_MYNAMES V_MYNUMS, fullactive off1(p120) on1 {Len 1.32}
+
+// I'm the last guy in the squad
+
+COMBINE_LAST_OF_SQUAD0 npc/combine_soldier/vo_kor/(v100) on2 overwatchrequestreserveactivation off1 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD1 npc/combine_soldier/vo_kor/(v100) on1 overwatch, sectorisnotsecure off3 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD2 npc/combine_soldier/vo_kor/(v100) on1 sector V_SECTORS, outbreak outbreak(p105) outbreak(p110) off1 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD3 npc/combine_soldier/vo_kor/(v100) on1 V_MYNAMES V_MYNUMS isfinalteamunitbackup off1 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD4 npc/combine_soldier/vo_kor/(v100) on1 overwatchteamisdown off1 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD5 npc/combine_soldier/vo_kor/(v100) on2 overwatchsectoroverrun off2 {Len 1.28 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD6 npc/combine_soldier/vo_kor/(v100) on1 overwatchrequestskyshield off1 {Len 0.95 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD7 npc/combine_soldier/vo_kor/(v100) on1 overwatchrequestwinder off1 {Len 0.95 closecaption NPC_Combine.Last}
+
+// player is dead
+
+COMBINE_PLAYER_DEAD0 npc/combine_soldier/vo_kor/(v100) on1 overwatchconfirmhvtcontained off3 {Len 0.82}
+COMBINE_PLAYER_DEAD1 npc/combine_soldier/vo_kor/(v100) on1 overwatchtarget1sterilized off1 {Len 1.87}
+COMBINE_PLAYER_DEAD2 npc/combine_soldier/vo_kor/(v100) on2 overwatchtargetcontained off2 {Len 1.38}
+COMBINE_PLAYER_DEAD3 npc/combine_soldier/vo_kor/(v100) on2 overwatch, stabilizationteamhassector off1 {Len 1.38}
+COMBINE_PLAYER_DEAD4 npc/combine_soldier/vo_kor/(v100) on2 overwatch, V_G0_PLAYERS secure off3 {Len 1.38}
+COMBINE_PLAYER_DEAD5 npc/combine_soldier/vo_kor/(v100) on1 overwatch, V_G0_PLAYERS delivered off1 {Len 1.38}
+COMBINE_PLAYER_DEAD6 npc/combine_soldier/vo_kor/(v100) on1 overwatch, antiseptic administer off1 {Len 1.38}
+
+// Idle statement - my status, no enemy
+
+COMBINE_IDLE0 npc/combine_soldier/vo_kor/(v30) on1 V_RNDNAMES V_RNDCODES V_RNDNUMS dash V_RNDNUMS off1 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE1 npc/combine_soldier/vo_kor/(v30) on1 overwatchreportspossiblehostiles off1 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE2 npc/combine_soldier/vo_kor/(v30) on1 ovewatchorders3ccstimboost off2 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE3 npc/combine_soldier/vo_kor/(v30) on2 stabilizationteamholding off1 {Len 2.97 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE4 npc/combine_soldier/vo_kor/(v30) on1 V_MYNAMES V_MYNUMS standingby] off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+
+// I'm asking a question while idle, which may be answered with affirmative
+
+COMBINE_QUEST0 npc/combine_soldier/vo_kor/(v30) on1 readyweaponshostilesinbound off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST1 npc/combine_soldier/vo_kor/(v30) on1 prepforcontact off3(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST2 npc/combine_soldier/vo_kor/(v30) on2 skyshieldreportslostcontact, readyweapons off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST3 npc/combine_soldier/vo_kor/(v30) on2 stayalert off3(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST4 npc/combine_soldier/vo_kor/(v30) on2 weaponsoffsafeprepforcontact off2(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST5 npc/combine_soldier/vo_kor/(v30) on1 overwatch isatcode V_RNDCODES V_RNDNUMS off1(p120) {Len 1.56 closecaption NPC_Combine.RadioChatter}
+
+// Answering affirmative
+
+COMBINE_ANSWER0 npc/combine_soldier/vo_kor/(v30) on1 affirmative off1 {Len 1.57}
+COMBINE_ANSWER1 npc/combine_soldier/vo_kor/(v30) on1 copy off1 {Len 1.57}
+COMBINE_ANSWER2 npc/combine_soldier/vo_kor/(v30) on2 copythat off3 {Len 1.57}
+COMBINE_ANSWER3 npc/combine_soldier/vo_kor/(v30) on1 affirmative2 off1 {Len 1.57}
+COMBINE_ANSWER4 npc/combine_soldier/vo_kor/(v30) on1 copythat, V_RNDNAMES V_RNDCODES V_RNDNUMS dash V_RNDNUMS off1 {Len 1.57}
+
+// Answering all clear
+
+COMBINE_CLEAR0 npc/combine_soldier/vo_kor/(v30) on1 V_MYNAMES V_MYNUMS hasnegativemovement grid V_GRIDXS dash V_GRIDYS on1 off2(p120) {Len 2.30}
+COMBINE_CLEAR1 npc/combine_soldier/vo_kor/(v30) on1 V_MYNAMES V_MYNUMS isholdingatcode V_RNDCODES on1 off1(p120) {Len 2.30}
+COMBINE_CLEAR2 npc/combine_soldier/vo_kor/(v30) on2 V_MYNAMES V_MYNUMS hasnegativemovement on1 off3(p120) {Len 2.30}
+COMBINE_CLEAR3 npc/combine_soldier/vo_kor/(v30) on1 affirmative, noviscon on1 off1(p120) {Len 2.30}
+COMBINE_CLEAR4 npc/combine_soldier/vo_kor/(v30) on1 sightlineisclear on1 off1(p120) {Len 2.30}
+COMBINE_CLEAR5 npc/combine_soldier/vo_kor/(v30) on2 V_MYNAMES reportingclear on1 off3(p120) {Len 2.30}
+COMBINE_CLEAR6 npc/combine_soldier/vo_kor/(v30) on1 sectorissecurenovison on1 off1(p120) {Len 2.30}
+
+// Questioning if all clear
+
+COMBINE_CHECK0 npc/combine_soldier/vo_kor/(v30) on1 stayalertreportsightlines off3 {Len 1.63}
+COMBINE_CHECK1 npc/combine_soldier/vo_kor/(v30) on2 reportallpositionsclear off3 {Len 1.63}
+COMBINE_CHECK2 npc/combine_soldier/vo_kor/(v30) on1 reportallradialsfree off3 {Len 1.63}
+
