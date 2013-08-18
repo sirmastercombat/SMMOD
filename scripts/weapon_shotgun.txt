@@ -19,6 +19,17 @@ WeaponData
 	"weight"				"4"
 	"rumble"			"5"
 	"item_flags"			"0"
+	
+	// SMMOD Ironsight Setting
+	"Ironsight" {
+		"right" "-9.0"
+		"up" "4.42"
+		"forward" "-5.4"
+		"roll" "0.0"
+		"pitch" "0.6"
+		"yaw" "0.0"
+		"fov" "-10"
+	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
