@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game 		"SMMOD (SMOD 2/3) (STEAMPIPE Version TEST!)"
+	game 		"SMMOD (Singleplayer)"
 	title 		"HALF-LIFE'"
 	title2		"== episode two =="
 
